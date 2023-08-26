@@ -130,3 +130,8 @@ body {
   background-color: #e74c3c;
   transform: rotateY(180deg);
 }
+
+/* Custom Cursor */
+body {
+    cursor: url('custom-cursor.png'), auto;
+  }
