@@ -14,3 +14,14 @@ body {
   main {
     padding: 2rem;
   }
+
+  /* Interactive UI Elements */
+.interactive-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
