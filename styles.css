@@ -62,3 +62,21 @@ body {
   .toggle-input:checked + .toggle-slider {
     background-color: #3498db;
   }
+
+  /* Pseudo-Elements */
+.decorative-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #f39c12;
+    margin: 20px auto;
+  }
+  
+  .decorative-box::before,
+  .decorative-box::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+  }
