@@ -80,3 +80,13 @@ body {
     height: 100px;
     background-color: #e74c3c;
   }
+
+  .decorative-box::before {
+    top: 0;
+    left: 0;
+  }
+  
+  .decorative-box::after {
+    bottom: 0;
+    right: 0;
+  }
