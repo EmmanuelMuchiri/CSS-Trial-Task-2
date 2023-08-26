@@ -30,3 +30,11 @@ body {
     background-color: #2980b9;
     transform: scale(1.1);
   }
+
+  .slider {
+    margin-top: 20px;
+  }
+  
+  .slider-input {
+    width: 100%;
+  }
