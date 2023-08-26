@@ -38,3 +38,14 @@ body {
   .slider-input {
     width: 100%;
   }
+
+  .toggle {
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .toggle-input {
+    display: none;
+  }
+  
